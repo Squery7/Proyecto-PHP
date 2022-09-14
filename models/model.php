@@ -1,7 +1,8 @@
 <?php
 
 class LinksPages {
-    public function linksPagesModel($linkModel) {
+
+    static function linksPagesModel($linkModel) {
         $module = "";
         if (
             $linkModel == "inicio" 
