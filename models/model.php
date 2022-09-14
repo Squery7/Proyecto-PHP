@@ -7,7 +7,9 @@ class LinksPages {
         if (
             $linkModel == "inicio" 
             || $linkModel == "nosotros" 
-            || $linkModel == "servicios" 
+            || $linkModel == "catalogo" 
+            || $linkModel == "carrito"
+            || $linkModel == "perfil"
             || $linkModel == "contactenos"
             ) {
             $module = "views/modules/" . $linkModel . ".php";
