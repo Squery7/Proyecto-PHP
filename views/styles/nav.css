@@ -1,0 +1,18 @@
+
+nav ul {
+    
+    /*es para desactivar el estilo de la lista*/
+    list-style-type:none;
+
+}
+
+
+nav li{
+    background-color: pink;
+    /*para poner horizonal*/
+    float: left;
+    text-align: center;
+    width: 5em;
+}
+
+
