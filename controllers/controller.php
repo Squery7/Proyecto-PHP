@@ -8,7 +8,6 @@
         public function linksPagesController() {
             // se valida que la variable action exista en los parametros del metodo GET
             if (isset($_GET["action"])) {
-                # code..
 
                 $linkController =$_GET["action"] ;
                 
