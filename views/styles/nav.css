@@ -1,11 +1,12 @@
 
 .nav{
-
+    
     background-color: gray;
     width: auto;
     height: 40px;
     
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -30,7 +31,7 @@ nav li{
     color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
-    /*Esto sirve para hacer una transision de 5.s/*/
+    /*Esto sirve para hacer una transicion de 5.s/*/
     transition: color .5s;
     
 }
