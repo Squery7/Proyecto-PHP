@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
+
+    <!-- Font-Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     
+    <!-- Hojas de estilo -->
     <link href="views/styles/nav.css" type="text/css" rel="stylesheet">
     <link href="views/styles/footer.css" type="text/css" rel="stylesheet">
+    <link href="views/styles/header.css" type="text/css" rel="stylesheet">
+    <link href="views/styles/general.css" type="text/css" rel="stylesheet">
 
 </head>
     <body>

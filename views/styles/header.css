@@ -1,0 +1,48 @@
+#inputHeader {
+    height: 30px;
+    width: 100px;
+
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    text-align: center;
+
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#inputHeader[type=search]:hover {
+    width: 150px;
+    
+}
+
+#bntHeader {
+    height: 30px;
+    width: 100px;
+
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    background-image: linear-gradient(rgb(64, 22, 86), rgb(68, 20, 96)), linear-gradient(silver, silver);
+    background-size: 0 100%, auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .2s ease-out;
+}
+
+#bntHeader:hover {
+    color: black;
+    background-size: 100% 100%, auto;
+}
+
+#imgLogo {
+    height: 70px;
+    margin: 10px;
+}
+
+.componentesHeader {
+    align-items: center;
+    display: flex;
+}
