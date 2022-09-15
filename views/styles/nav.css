@@ -1,18 +1,44 @@
 
-nav ul {
+.nav{
+
+    background-color: gray;
+    width: auto;
+    height: 40px;
     
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
     /*es para desactivar el estilo de la lista*/
     list-style-type:none;
-
 }
 
 
 nav li{
-    background-color: pink;
+
     /*para poner horizonal*/
+    font-size: 22px;
+   
     float: left;
     text-align: center;
     width: 5em;
 }
 
+.nav a{
 
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    /*Esto sirve para hacer una transision de 5.s/*/
+    transition: color .5s;
+    
+}
+
+   /*darle accion a la etiqueta a*/
+.nav a:hover{
+
+    color: rgb(196, 193, 193);
+  
+    margin: 1px 1px;
+}
