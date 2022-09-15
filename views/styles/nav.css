@@ -1,7 +1,7 @@
 
 .nav{
     
-    background-color: gray;
+    background: linear-gradient(90deg, rgb(97, 67, 40),rgb(112, 77, 46),rgb(141, 111, 86), rgb(112, 77, 46),rgb(97, 67, 40));
     width: auto;
     height: 40px;
     
