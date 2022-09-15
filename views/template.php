@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
 
-    <!-- Font-Awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/5630d39e56.js" crossorigin="anonymous"></script>
+
     <!-- Hojas de estilo -->
     <link href="views/styles/nav.css" type="text/css" rel="stylesheet">
     <link href="views/styles/footer.css" type="text/css" rel="stylesheet">
@@ -16,10 +16,6 @@
     <link href="views/styles/general.css" type="text/css" rel="stylesheet">
     <link href="views/styles/registro.css" type="text/css" rel="stylesheet">
     <link href="views/styles/login.css" type="text/css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-    
 
 </head>
     <body>

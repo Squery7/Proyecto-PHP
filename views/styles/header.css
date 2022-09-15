@@ -1,6 +1,18 @@
+/*Div izquierda*/
+.componentesHeader {
+    align-items: center;
+    display: flex;
+
+    background-color: #696565;
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
 #inputHeader {
     height: 30px;
-    width: 100px;
+    width: 200px;
+    margin-left: 25%;
 
     -webkit-transition: width .35s ease-in-out;
     transition: width .35s ease-in-out;
@@ -12,8 +24,7 @@
 }
 
 #inputHeader[type=search]:hover {
-    width: 150px;
-    
+    width: 350px;
 }
 
 #bntHeader {
@@ -25,7 +36,7 @@
 
     font-family: Georgia, 'Times New Roman', Times, serif;
     
-    background-image: linear-gradient(rgb(64, 22, 86), rgb(68, 20, 96)), linear-gradient(silver, silver);
+    background-image: linear-gradient(rgb(225, 225, 225), rgb(255, 255, 255)), linear-gradient(rgb(0, 0, 0), silver);
     background-size: 0 100%, auto;
     background-repeat: no-repeat;
     background-position: center center;
@@ -40,17 +51,32 @@
 #imgLogo {
     height: 70px;
     margin: 10px;
+    border-radius: 35px;
 }
 
-.componentesHeader {
-    align-items: center;
-    display: flex;
+
+/*Div derecha*/
+.cuenta{
+    background-color: #504C4C;
+    width: 50%;
+    height: 100px;
+    float: right;
 }
 
-/*personalizar el area de cuentas*/
-
+.cuenta a:hover{
+    color: rgb(196, 193, 193);
+}
 
 .cuenta a{
-
     color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+
+    margin: 2px;
+    font-size: 16px;
+    width: 7.5em;
+    float: right;
+    margin-top: 40px;
+
+    transition: color .5s;
 }
