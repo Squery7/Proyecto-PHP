@@ -11,6 +11,7 @@ class LinksPages {
             || $linkModel == "carrito"
             || $linkModel == "perfil"
             || $linkModel == "contactenos"
+            || $linkModel == "registro"
             ) {
             $module = "views/modules/" . $linkModel . ".php";
         }
