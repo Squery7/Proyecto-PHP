@@ -1,6 +1,8 @@
 
+/*Para el login*/
 
-.registro{
+
+.login{
 
       
     
@@ -10,7 +12,7 @@
    
 }
 
-.registro2{
+.login2{
 
     width: 380px;
     height: 380px;
@@ -26,12 +28,12 @@
 
 }
 
-.registro2 label{
+.login2 label{
 
     color: rgb(109, 109, 109);
     
 }
-.registro2 input{
+.login2 input{
     height: 25px;
 
     width: 340px;
@@ -44,7 +46,7 @@
     border-radius: 7px;
 }
 
-.registro2 #btn-registro{
+.login2 #btn-login{
 
     font-size: 20px;
    height: 40px;
@@ -59,7 +61,7 @@
   
 }
 
-.registro2 #btn-registro:hover{
+.login2 #btn-login:hover{
   
     background-color: rgb(155, 202, 202);
     color: rgb(80, 79, 79);
