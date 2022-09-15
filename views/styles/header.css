@@ -46,3 +46,11 @@
     align-items: center;
     display: flex;
 }
+
+/*personalizar el area de cuentas*/
+
+
+.cuenta a{
+
+    color: black;
+}

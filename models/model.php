@@ -12,6 +12,7 @@ class LinksPages {
             || $linkModel == "perfil"
             || $linkModel == "contactenos"
             || $linkModel == "registro"
+            || $linkModel == "login"
             ) {
             $module = "views/modules/" . $linkModel . ".php";
         }

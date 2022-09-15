@@ -5,8 +5,11 @@
         <button id="bntHeader">Busqueda</button>
     </div>
 
-    <div id="crear_cuenta">
+    <div id="cuenta" class="cuenta">
 
+        
         <a href="index.php?action=registro">Crear cuenta</a>
+
+        <a href="index.php?action=login">Iniciar sesión</a>
     </div>
 </header>
