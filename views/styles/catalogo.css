@@ -1,0 +1,16 @@
+.catalogo .card{
+    display: inline-block;
+}
+.catalogo .card .card-body #btn-primary{
+
+    background-color: #B4877F;
+ 
+    border: 0;
+}
+
+.catalogo .card .card-body #btn-primary:hover{
+
+    background-color: #794646;
+
+   
+}
