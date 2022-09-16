@@ -5,18 +5,20 @@
 }
 
 .footer {
-    background: linear-gradient(90deg, rgb(112, 112, 112),rgb(139, 139, 139),rgb(146, 145, 145), rgb(139, 139, 139),rgb(112, 112, 112));
+    /*background: linear-gradient(90deg, rgb(112, 112, 112),rgb(139, 139, 139),rgb(146, 145, 145), rgb(139, 139, 139),rgb(112, 112, 112));*/
 
-
+    background-color: #0D0F1C;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
+    color: #bcf8df;
 
 }
 
 .footer a {
     text-decoration: none;
+    color: #aed8c6;
 }
 
 .footer ul {

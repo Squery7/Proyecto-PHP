@@ -1,7 +1,7 @@
 
 .nav{
     
-    background: linear-gradient(90deg, rgb(112, 112, 112),rgb(139, 139, 139),rgb(179, 179, 179), rgb(139, 139, 139),rgb(112, 112, 112));
+    background: linear-gradient(90deg,#202A32,#2a3641,#3c4d5c, #2a3641,#202A32);
     width: auto;
     height: 40px;
     
@@ -28,7 +28,7 @@ nav li{
 
 .nav a{
 
-    color: black;
+    color: #62bed3;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     /*Esto sirve para hacer una transicion de 5.s/*/

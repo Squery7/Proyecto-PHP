@@ -3,7 +3,7 @@
     align-items: center;
     display: flex;
 
-    background-color: #696565;
+    background-color: #B4877F;
     height: 100px;
     width: 50%;
     float: left;
@@ -57,7 +57,7 @@
 
 /*Div derecha*/
 .cuenta{
-    background-color: #504C4C;
+    background-color: #97716a;
     width: 50%;
     height: 100px;
     float: right;
