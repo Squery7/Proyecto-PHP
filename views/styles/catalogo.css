@@ -1,17 +1,64 @@
+
+
 .catalogo .card{
+
+    border: 1px solid rgb(189, 187, 187);
     display: inline-block;
-    margin: 14px;
+    margin: 10px 14px;
+
+    border-radius: 4px;
+    height: auto;
+
 }
+.catalogo .card .card-body {
+
+    margin: 10px 10px;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.catalogo .card  .card-img-top{
+
+    margin: 10px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+.catalogo .card .card-body .card-title {
+
+    margin: 10px 10px;
+    
+}
+
+.catalogo .card .card-body .card-text {
+
+    margin: 10px 10px;
+    
+}
+
 .catalogo .card .card-body #btn-primary{
 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-weight: 200px;
+  
+    font-size: 18px;
+    padding: 6px;
+    margin: 10px 10px;
+    color: whitesmoke;
     background-color: #B4877F;
- 
-    border: 0;
+    
+    border: 1px solid;
+
+    border-radius: 4px  ;
 }
 
 .catalogo .card .card-body #btn-primary:hover{
 
     background-color: #794646;
+    border: none;
 
    
 }
