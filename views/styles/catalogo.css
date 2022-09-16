@@ -1,5 +1,6 @@
 .catalogo .card{
     display: inline-block;
+    margin: 14px;
 }
 .catalogo .card .card-body #btn-primary{
 
