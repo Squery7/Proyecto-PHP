@@ -4,9 +4,7 @@ class LinksPages {
 
     static function linksPagesModel($linkModel) {
         $module = "";
-        if (
-            $linkModel == "inicio" 
-            || $linkModel == "nosotros" 
+        if ($linkModel == "inicio" || $linkModel == "nosotros" 
             || $linkModel == "catalogo" 
             || $linkModel == "carrito"
             || $linkModel == "perfil"
