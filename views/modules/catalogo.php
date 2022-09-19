@@ -13,7 +13,7 @@
     $variable = $variable . '  <div class="card-body">';
     $variable = $variable . '    <h5 class="card-title">Producto 1</h5>';
     $variable = $variable . '    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>';
-    $variable = $variable . '    <a href="#" class="btn btn-primary" id="btn-primary">Go somewhere</a>';
+    $variable = $variable . '    <a href="#" class="btn btn-primary" id="btn-primary">Detalles</a>';
     $variable = $variable . '  </div>';
     $variable = $variable . '</div>';
     echo $variable;   
