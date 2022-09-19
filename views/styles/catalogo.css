@@ -17,9 +17,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.catalogo .card .div-imagen{
+    display: flex;
+    justify-content: center;
+}
 .catalogo .card  .card-img-top{
 
     margin: 10px 10px;
+    height: 180px;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
